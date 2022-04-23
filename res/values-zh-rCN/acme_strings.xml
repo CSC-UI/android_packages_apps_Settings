@@ -10,4 +10,7 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">构建日期</string>
 
+    <!-- Acme version -->
+    <string name="acme_version">Acme UI 版本</string>
+
 </resources>
