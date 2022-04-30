@@ -67,7 +67,7 @@ import java.util.List;
 @RunWith(RobolectricTestRunner.class)
 public class EnterprisePrivacyFeatureProviderImplTest {
 
-    private static final String OWNER_ORGANIZATION = "ACME";
+    private static final String OWNER_ORGANIZATION = "CSC";
     private static final String VPN_PACKAGE_ID = "com.example.vpn";
     private static final String IME_PACKAGE_ID = "com.example.ime";
     private static final String IME_PACKAGE_LABEL = "Test IME";

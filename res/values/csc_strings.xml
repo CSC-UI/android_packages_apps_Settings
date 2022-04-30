@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
-    Copyright (C) 2022 Acme
+    Copyright (C) 2022 CSC
 
     SPDX-License-Identifier: Apache-2.0
 
@@ -10,8 +10,8 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
 
-    <!-- Acme version -->
-    <string name="acme_version">Acme UI version</string>
+    <!-- CSC version -->
+    <string name="csc_version">CSC UI version</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>

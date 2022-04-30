@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
-    Copyright (C) 2022 Acme
+    Copyright (C) 2022 CSC
 
     SPDX-License-Identifier: Apache-2.0
 
@@ -16,7 +16,7 @@
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="600dp"
         android:layout_height="300dp"
-        app:lottie_rawRes="@raw/acme_logo"
+        app:lottie_rawRes="@raw/csc_logo"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"/>
 </LinearLayout>
