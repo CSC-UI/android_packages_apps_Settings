@@ -77,6 +77,7 @@ public class ImeiInfoPreferenceController extends BasePreferenceController {
             final Preference multiSimPreference = createNewPreference(screen.getContext());
             multiSimPreference.setOrder(imeiPreferenceOrder + simSlotNumber);
             multiSimPreference.setKey(getPreferenceKey() + simSlotNumber);
+            multiSimPreference.setLayoutResource(R.layout.csc_dashboard_preference_bottom);
             category.addPreference(multiSimPreference);
             mPreferenceList.add(multiSimPreference);
             updatePreference(multiSimPreference, simSlotNumber);

@@ -13,10 +13,16 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="600dp"
+    <ImageView
+        android:layout_width="300dp"
         android:layout_height="300dp"
-        app:lottie_rawRes="@raw/csc_logo"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"/>
+        android:src="@mipmap/csc"
+        />
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:layout_width="600dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        app:lottie_rawRes="@raw/csc_logo"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"/>-->
 </LinearLayout>

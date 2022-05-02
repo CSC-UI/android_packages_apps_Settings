@@ -172,6 +172,16 @@ public class TopLevelSettings extends DashboardFragment implements
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
         final PreferenceScreen screen = getPreferenceScreen();
+        for (int i = 0; i < screen.getPreferenceCount(); i++) {
+            Preference pref = screen.getPreference(i);
+            boolean isValid = pref.isEnabled() && pref.isVisible() && pref.getTitle() != null;
+            if (isValid && pref.getLayoutResource() != R.layout.csc_dashboard_preference_top &&
+                    pref.getLayoutResource() != R.layout.csc_dashboard_preference_full &&
+                    pref.getLayoutResource() != R.layout.csc_dashboard_preference_phone &&
+                    pref.getLayoutResource() != R.layout.csc_dashboard_preference_bottom) {
+                pref.setLayoutResource(R.layout.csc_dashboard_preference_middle);
+            }
+        }
         if (screen == null) {
             return;
         }

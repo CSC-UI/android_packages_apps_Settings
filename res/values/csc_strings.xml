@@ -17,9 +17,52 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+    <!-- About phone cards -->
+    <string name="about_device_nearby">附近设备将会看到此名称</string>
+    <string name="about_device_version_type_gapps">GApps版</string>
+    <string name="about_device_version_type_vanilla">暂时没有GAPPS版</string>
+    <string name="version">版本</string>
+    <string name="edit">Edit</string>
+    <string name="device_name">手机名称</string>
+
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+
+    <string name="csc_dashboard_device">我的设备</string>
+    <string name="csc_dashboard_account">Account</string>
+    <string name="csc_dashboard_network">Internet</string>
+    <string name="csc_dashboard_conectivity">Connectivity</string>
+    <string name="csc_dashboard_display">Display</string>
+    <string name="csc_dashboard_battery">Battery</string>
+    <string name="csc_dashboard_sound">Sound</string>
+    <string name="csc_dashboard_apps">Apps</string>
+    <string name="csc_dashboard_notif">Notifications</string>
+    <string name="csc_dashboard_storage">Storage</string>
+    <string name="csc_dashboard_privacy">Privacy</string>
+    <string name="csc_dashboard_location">Location</string>
+    <string name="csc_dashboard_security">Security</string>
+    <string name="csc_dashboard_accessibility">Accessibility</string>
+    <string name="csc_dashboard_system">Other</string>
+    <string name="csc_dashboard_support">Support</string>
+
+    <!-- Dashboard categories -->
+    <string name="csc_dashboard_updates">System Updates</string>
+    <string name="csc_updates_status_updated">No new updates</string>
+    <string name="csc_updates_status_new">New update available</string>
+
+    <string name="top_level_connectivity">连接</string>
+    <string name="top_level_personalize">个性化</string>
+    <string name="top_level_security" translatable="false">@string/security_settings_title</string>
+    <string name="top_level_others">其他</string>
+
+    <!-- csc Customizations -->
+    <string name="csc_customizer_dashboard_title">Customizations</string>
+    <string name="csc_customizer_dashboard_summary">Personalize your experience with a drop of paint</string>
+
+    <string name="config_styles_and_wallpaper_picker_class">com.csc.customizations.picker.CustomizationPickerActivity</string>
+    <string name="config_wallpaper_picker_class">com.csc.customizations.picker.CategoryPickerActivity</string>
+    <string name="config_wallpaper_picker_package">com.csc.customizations</string>
 </resources>

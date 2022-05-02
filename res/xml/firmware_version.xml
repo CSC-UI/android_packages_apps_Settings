@@ -21,19 +21,19 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- CSC logo -->
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="csc_logo"
-        android:layout="@layout/csc_logo"
-        android:selectable="true"/>
+<!--    &lt;!&ndash; CSC logo &ndash;&gt;-->
+<!--    <com.android.settingslib.widget.LayoutPreference-->
+<!--        android:key="csc_logo"-->
+<!--        android:layout="@layout/csc_logo"-->
+<!--        android:selectable="true"/>-->
 
-    <!-- CSC version -->
-    <Preference
-            android:key="os_csc_version"
-            android:title="@string/csc_version"
-            android:summary="@string/summary_placeholder"
-            settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.CscVersionPreferenceController"/>
+<!--    &lt;!&ndash; CSC version &ndash;&gt;-->
+<!--    <Preference-->
+<!--            android:key="os_csc_version"-->
+<!--            android:title="@string/csc_version"-->
+<!--            android:summary="@string/summary_placeholder"-->
+<!--            settings:enableCopying="true"-->
+<!--            settings:controller="com.android.settings.deviceinfo.firmwareversion.CscVersionPreferenceController"/>-->
 
     <!-- Android version -->
     <Preference

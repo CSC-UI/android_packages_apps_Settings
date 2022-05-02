@@ -44,7 +44,10 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java","src/**/*.kt"],
+    resource_dirs: [
+        "res"
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -132,7 +135,7 @@ filegroup {
 // over all the sources together.
 filegroup {
     name: "Settings_srcs",
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java","src/**/*.kt"],
 }
 
 filegroup {

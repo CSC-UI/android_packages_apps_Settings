@@ -96,7 +96,7 @@ public class TopLevelWallpaperPreferenceController extends BasePreferenceControl
 
     @Override
     public void updateState(Preference preference) {
-        disablePreferenceIfManaged((RestrictedTopLevelPreference) preference);
+        //disablePreferenceIfManaged((RestrictedTopLevelPreference) preference);
     }
 
     @Override
