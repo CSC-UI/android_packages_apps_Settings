@@ -19,6 +19,8 @@ public class AcmeVersionPreferenceController extends BasePreferenceController {
 
     private static final String KEY_ACME_BRANCH_PROP = "ro.acme.branch";
 
+    private static final String KEY_ACME_GMS_TYPE_PROP = "ro.acme.gms.type";
+
     private static final String KEY_ACME_BUILD_TYPE_PROP = "ro.acme.build.type";
 
     public AcmeVersionPreferenceController(Context context, String key) {
@@ -32,7 +34,9 @@ public class AcmeVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        String version = SystemProperties.get(KEY_ACME_BRANCH_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | " + SystemProperties.get(KEY_ACME_BUILD_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase();
+        String version = SystemProperties.get(KEY_ACME_BRANCH_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | "
+                + SystemProperties.get(KEY_ACME_GMS_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | "
+                + SystemProperties.get(KEY_ACME_BUILD_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase();
         return version;
     }
 }
