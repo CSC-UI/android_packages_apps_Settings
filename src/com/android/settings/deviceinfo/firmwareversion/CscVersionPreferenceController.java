@@ -19,6 +19,7 @@ public class CscVersionPreferenceController extends BasePreferenceController {
 
     private static final String KEY_CSC_BRANCH_PROP = "ro.csc.branch";
 
+    private static final String KEY_CSC_GMS_TYPE_PROP = "ro.csc.gms.type";
     private static final String KEY_CSC_BUILD_TYPE_PROP = "ro.csc.build.type";
 
     public CscVersionPreferenceController(Context context, String key) {
@@ -32,7 +33,9 @@ public class CscVersionPreferenceController extends BasePreferenceController {
 
     @Override
     public CharSequence getSummary() {
-        String version = SystemProperties.get(KEY_CSC_BRANCH_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | " + SystemProperties.get(KEY_CSC_BUILD_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase();
+        String version = SystemProperties.get(KEY_CSC_BRANCH_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | "
+                + SystemProperties.get(KEY_CSC_GMS_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase() + " | "
+                + SystemProperties.get(KEY_CSC_BUILD_TYPE_PROP, mContext.getString(R.string.unknown)).toUpperCase();
         return version;
     }
 }
