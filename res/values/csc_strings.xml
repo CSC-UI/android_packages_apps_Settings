@@ -19,8 +19,9 @@
 
     <!-- About phone cards -->
     <string name="about_device_nearby">附近设备将会看到此名称</string>
-    <string name="about_device_version_type_gapps">GApps版</string>
-    <string name="about_device_version_type_vanilla">暂时没有GAPPS版</string>
+    <string name="about_device_version_type_gapps">GAPPS</string>
+    <string name="about_device_version_type_gms_core">GMS-CORE</string>
+    <string name="about_device_version_type_vanilla">VANILLA</string>
     <string name="version">版本</string>
     <string name="edit">Edit</string>
     <string name="device_name">手机名称</string>
